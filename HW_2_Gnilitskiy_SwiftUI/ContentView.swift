@@ -14,16 +14,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            RoundedRectangle(cornerRadius: 20)
-                .frame(height: 160.0)
-                .foregroundColor(
-                    Color(
-                        .sRGB,
-                        red: randomSliderValueRed / 255,
-                        green: randomSliderValueGreen / 255,
-                        blue: randomSliderValueBlue / 255
-                    )
-                )
+            SliderColor(colorRed: randomSliderValueRed, colorGreen: randomSliderValueGreen, colorBlue: randomSliderValueBlue)
                 .padding(.all)
             
             HStack {
