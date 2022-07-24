@@ -11,7 +11,7 @@
 		1F146C68288AE28600FB3B46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F146C67288AE28600FB3B46 /* ContentView.swift */; };
 		1F146C6A288AE28800FB3B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F146C69288AE28800FB3B46 /* Assets.xcassets */; };
 		1F146C6D288AE28800FB3B46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F146C6C288AE28800FB3B46 /* Preview Assets.xcassets */; };
-		1F146C76288D941300FB3B46 /* SliderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F146C75288D941300FB3B46 /* SliderColor.swift */; };
+		1F146C76288D941300FB3B46 /* SquareColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F146C75288D941300FB3B46 /* SquareColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		1F146C67288AE28600FB3B46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F146C69288AE28800FB3B46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F146C6C288AE28800FB3B46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1F146C75288D941300FB3B46 /* SliderColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColor.swift; sourceTree = "<group>"; };
+		1F146C75288D941300FB3B46 /* SquareColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				1F146C65288AE28600FB3B46 /* HW_2_Gnilitskiy_SwiftUIApp.swift */,
-				1F146C75288D941300FB3B46 /* SliderColor.swift */,
+				1F146C75288D941300FB3B46 /* SquareColor.swift */,
 				1F146C67288AE28600FB3B46 /* ContentView.swift */,
 				1F146C69288AE28800FB3B46 /* Assets.xcassets */,
 				1F146C6B288AE28800FB3B46 /* Preview Content */,
@@ -142,7 +142,7 @@
 			files = (
 				1F146C68288AE28600FB3B46 /* ContentView.swift in Sources */,
 				1F146C66288AE28600FB3B46 /* HW_2_Gnilitskiy_SwiftUIApp.swift in Sources */,
-				1F146C76288D941300FB3B46 /* SliderColor.swift in Sources */,
+				1F146C76288D941300FB3B46 /* SquareColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

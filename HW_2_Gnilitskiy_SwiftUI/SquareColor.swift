@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SliderColor: View {
+struct SquareColor: View {
     let colorRed: Double
     let colorGreen: Double
     let colorBlue: Double
@@ -27,8 +27,8 @@ struct SliderColor: View {
     }
 }
 
-struct SliderColor_Previews: PreviewProvider {
+struct SquareColor_Previews: PreviewProvider {
     static var previews: some View {
-        SliderColor(colorRed: 0.0, colorGreen: 0.0, colorBlue: 0.0)
+        SquareColor(colorRed: 0.0, colorGreen: 0.0, colorBlue: 0.0)
     }
 }

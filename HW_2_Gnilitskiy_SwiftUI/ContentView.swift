@@ -14,7 +14,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            SliderColor(colorRed: randomSliderValueRed, colorGreen: randomSliderValueGreen, colorBlue: randomSliderValueBlue)
+            SquareColor(colorRed: randomSliderValueRed, colorGreen: randomSliderValueGreen, colorBlue: randomSliderValueBlue)
                 .padding(.all)
             
             HStack {
